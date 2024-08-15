@@ -1,0 +1,13 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Encoding=UTF-8
+Name=Pianobar GUI
+GenericName=Pianobar GUI
+Comment=Tray media player for Pianobar
+Exec=sh -c "${HOME}/projects/python/python-pianobar-wrapper/pianobar-gui.sh"
+Icon=audio-headphones
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=Network;Application

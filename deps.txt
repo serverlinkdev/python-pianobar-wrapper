@@ -1,0 +1,11 @@
+python3 -m venv venv-pycharm-linux
+source ./venv-pycharm-linux/bin/activate
+
+pip install --upgrade pip setuptools wheel pystray ttkbootstrap pynput Pillow
+
+pystray : ubuntu python3-pystray
+PIL Image, ImageTk : ubuntu python3-pil python3-pil.imagetk
+colorlog : ubuntu python3-colorlog
+ttkbootstrap : pip install --user ttkbootstrap
+pynput : ubuntu python3-pynput
+pyexpect : ubuntu python3-pexpect
