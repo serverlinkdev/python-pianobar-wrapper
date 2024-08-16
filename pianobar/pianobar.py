@@ -293,7 +293,7 @@ class Pianobar(BaseComponent):
         self._reader_thread.daemon = True
         self._reader_thread.start()
         # Wait for pianobar to connect
-        time.sleep(3)
+        time.sleep(5)
 
     def _stop(self):
         """
